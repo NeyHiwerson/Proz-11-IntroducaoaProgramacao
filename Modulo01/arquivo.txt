@@ -1,0 +1,12 @@
+Escreva("Digite seu Nome");
+Caractere Nome = Leia();
+Escreva("Digite seu Endereço");
+Caractere Endereco = Leia();
+Escreva("Digite sua Cidade");
+Caractere Cidade = Leia();
+Escreva("Digite seu CPF");
+Inteiro CPF = Leia();
+Escreva("Digite seu RG");
+Inteiro RG = Leia();
+
+Escreva(Nome, Endereco, Cidade, CPF, RG);
