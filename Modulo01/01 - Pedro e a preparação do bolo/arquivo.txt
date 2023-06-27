@@ -1,0 +1,13 @@
+1 - verificar se possui uma bacia que onde possa misturar todos os ingredientes, se sim peguea.
+2 - adicionar a bacia todos os ingredientes secos.
+3 - verificar se possui uma colher na gaveta de talheres e se tiver pegar e usar para misturar os ingredientes na bacia.
+4 - quebrar os ovos 1 de cada ves em e adicionar somente o conteudo interno a mistura da bacia e descartar a casca do ovo no lixo
+5 - adicionar o leite e a manteiga na bacia e misturar bem com a colher
+6 - acender o forno a 180° para pré aquecer
+7 - verificar se possui uma forma que comporte a quantidade de mistura da bacia, se tiver peguea e untea com manteiga
+8 - despeje a mistura da bacia a forma ja untada
+9 - leve a forma para dentro do forno e deixe assar por 30 minutos.
+10 - desligue o forno
+11 - verifique se possui um pano de prato e se tiver pegue ele
+12 - abra o forno e com auxilio do pano de prato retire o bolo do forno e coloque sobre o fogão
+13 - espere esfriar e corte com uma faca e sirva em um pires.
