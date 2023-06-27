@@ -1,0 +1,5 @@
+caractere pessoaNome = "José Almeida da Silva";
+inteiro pessoaCPF = 12345678900;
+inteiro pessoaRG = 9517530;
+real pessoaAltura = 1.78;
+caractere pessoaEndereco = "Rua A, 380 – Centro – Recife/PE";
