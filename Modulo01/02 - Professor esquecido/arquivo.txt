@@ -1,0 +1,4 @@
+1 - verificar linha por linha as posicoes das colunas no primeiro desenho comparando com o segundo desenho.
+2 - se posição for diferente tira para ficar de pe e quando encontrar o segundo diferente ele assume o lugar do primeiro
+3 - o primeiro que estava fora assume o lugar do segundo
+
