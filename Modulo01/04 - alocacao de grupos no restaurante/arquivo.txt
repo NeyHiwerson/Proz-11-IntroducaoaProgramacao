@@ -1,0 +1,12 @@
+let pessoas = new Pessoas
+pessoas.fumantes = true
+pessoas.comAnimais = false
+pessoas.quantidade = 6
+let mensagem = "Nova Mensagem"
+Se (pessoas.fumantes == true || pessoas.comAnimais == true){
+  imprima: ("dirija-se a area externa");
+}SeNao Se(pessoas.quantidade >= 5 ){
+  imprima: ("1º andar, pois não dá para juntar mesas no térreo.");
+}Senao {
+  imprima: ("Por favor dirija-se ao terreo");
+}
