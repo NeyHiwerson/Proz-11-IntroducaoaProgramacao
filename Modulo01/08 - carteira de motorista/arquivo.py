@@ -12,16 +12,16 @@
 # E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
 
 quantidadeRodas = 4
-pesoBruto = 500
-quantidadePessoas = 2
+pesoBruto = 5500
+quantidadePessoas = 12
 
 if (quantidadeRodas < 4):
     print("A")
-elif (quantidadeRodas == 4 & quantidadePessoas <= 8 & pesoBruto <= 3500):
+elif (quantidadeRodas == 4 and quantidadePessoas <= 8 and pesoBruto <= 3500):
     print("B")
-elif (quantidadeRodas >= 4 & pesoBruto >= 3500 & pesoBruto <= 6000):
+elif (quantidadeRodas >= 4 and pesoBruto >= 3500 and pesoBruto <= 6000):
     print("C")
-elif(quantidadeRodas >= 4 & quantidadePessoas > 8):
+elif(quantidadeRodas >= 4 and quantidadePessoas > 8):
     print("D")
-elif (quantidadeRodas >= 4 & pesoBruto > 6000):
+elif (quantidadeRodas >= 4 and pesoBruto > 6000):
     print("E")
