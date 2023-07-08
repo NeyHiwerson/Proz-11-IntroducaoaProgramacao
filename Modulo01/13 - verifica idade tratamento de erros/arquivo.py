@@ -3,18 +3,21 @@
 #Caso o usuário não digite um número ou apareça um inválido no campo do ano, o sistema informará o erro e continuará perguntando até que um valor correto seja preenchido.
 
 
-inicio = True 
+inicio = True
 preechaAno = True
 while inicio:
-    nome = input("Digite o seu nome completo: ")
-    while preenchaAno:
+    print("Digite o seu nome completo: ou fim para encerrar.")
+    nome = input()
+    if nome == "fim": break
+    while preechaAno:
         try:
-            anoDeNascimento = int(input("Digite o ano de nascimento:")) 
+            anoDeNascimento = int(input("Digite o ano de nascimento:"))
             if anoDeNascimento > 1922 and anoDeNascimento < 2021:
                 anoAtual = 2023
                 idadeUsuario = anoAtual - anoDeNascimento
                 print(nome," tem ",idadeUsuario," anos")
-             else:
-                 print("Erro, ano invalido!!")
-         except:
-             print("Caracteres invalidos, digite o ano entre1923 e 2020")
+                break
+            else:
+                 print("Erro, ano invalido, digite o ano entre 1923 e 2020")
+        except:
+             print("Caracteres invalidos, digite o ano entre 1923 e 2020")
