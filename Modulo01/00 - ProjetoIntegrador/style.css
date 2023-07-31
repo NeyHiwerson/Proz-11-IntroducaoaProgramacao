@@ -1,0 +1,60 @@
+body {
+  width: 1440px;
+  height: 1024px;
+}
+.Home {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: linear-gradient(180deg, #5f7cc9 0%, #30c7a3 100%);
+}
+.Copyright {
+  left: 556px;
+  top: 980px;
+  position: absolute;
+  opacity: 0.5;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.apresentacaoSiteHome {
+  left: 156px;
+  top: 772px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: Inter;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.imgPetsCapaHome {
+  width: 1200px;
+  height: 480px;
+  left: 120px;
+  top: 272px;
+  position: absolute;
+}
+.petHero {
+  width: 407px;
+  height: 192px;
+  left: 289px;
+  top: 29px;
+  position: absolute;
+  color: #e26119;
+  font-size: 100px;
+  font-family: Inter;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.logoPetHero {
+  width: 226px;
+  height: 192px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  border-radius: 70px;
+}
