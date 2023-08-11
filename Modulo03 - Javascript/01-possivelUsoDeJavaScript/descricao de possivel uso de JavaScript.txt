@@ -1,0 +1,9 @@
+Na imagem que foi compartilhada temos diversos elementos que possivelmente 
+estão fazendo uso de javaScript em sua implementação. Vou focar aqui na logica
+da tradução:
+é definida o tipo de linguagem para fazer a tradução
+é criadas caixas de input da string a ser traduzida e com o auxilio de 
+javaScrips a informação é coletada e enviada para api(ou servidor) que recebe
+nossa requisição e processa a tradução e responde com o objeto ja traduzido que
+é recebido pelo java script que escreve de forma dinamica essa resposta em nosso html
+na area reservada para impressao da resposta.
