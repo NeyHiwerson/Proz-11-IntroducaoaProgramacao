@@ -1,0 +1,21 @@
+Extensoes para visual studio code
+
+abaixo vou listar algumas extençoes para melhor visual( o que torna seu ambiente
+ de desenvolvimento mais agradavel) e outras para melhorar o seu desempenho como
+ desenvolvedor:
+
+    1 - Live server - Essa extenção ajuda muito durante o desenvolvimento HTML e
+     CSS e ate javaScript pois com ela vc pode estar executando em tempo real
+     seu arquivo enquanto edita e ela atualiza automaticamente
+
+    2 - Prettier - Code Formatter - Essa extenção ajuda formatando seu arquivo
+    basta usar o comando Shift+Alt+F e seu algoritmo fica formatado lindão.
+
+    3 - Dracula official - tema black de visual o que ajuda a não cansar a vista
+     durante o uso do VSC por longos periodos de trabalho.
+
+    4 - Material Icon Theme - disponibilisa diversos icones para melhor
+    visualização da estrutura de pastas e arquivos conforme nomes pré padronizados
+     disponibilizados na documentação da extenção.
+
+    5 - Color Highlight - essa extenção disponibiliza um painel de selecão de cor com um quadro para seleção de cor manualmente, um slide para selecionar o brlho e contraste e ja atualiza o codigo de selecionado e exibe um quadrinho com a cor no codigo para facilitar a sua visualização.
