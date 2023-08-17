@@ -9,7 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 nav {
@@ -25,4 +25,30 @@ ul {
 nav ul li {
   padding-left: 16px;
   list-style-type: none;
+}
+
+main {
+  width: 960px;
+  margin: 20px;
+  background-color: aqua;
+  color: #FFFFFF;
+}
+h1 {
+  margin-left: 16px;
+
+}
+h2 {
+  margin-left: 16px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+
+}
+div {
+  background-image: url(./img/bg_laranja.jpg);
+  padding: 16px;
+  width: 300px;
+  height: 200px;
+  border-radius: 30px;
 }
