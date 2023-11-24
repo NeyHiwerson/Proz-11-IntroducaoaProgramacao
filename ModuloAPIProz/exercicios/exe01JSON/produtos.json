@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "nome": "Smartphone Galaxy S21",
+    "marca": "Samsung",
+    "categoria": "Eletrônicos",
+    "preço": 2799.99,
+    "quantidade_em_estoque": 50,
+    "disponivel_para_pronta_entrega": true
+  },
+  {
+    "id": 2,
+    "nome": "Notebook Inspiron 15",
+    "marca": "Dell",
+    "categoria": "Eletrônicos",
+    "preço": 3499.00,
+    "quantidade_em_estoque": 30,
+    "disponivel_para_pronta_entrega": true
+  },
+  {
+    "id": 3,
+    "nome": "Fone de Ouvido Bluetooth",
+    "marca": "Sony",
+    "categoria": "Acessórios",
+    "preço": 149.90,
+    "quantidade_em_estoque": 100,
+    "disponivel_para_pronta_entrega": true
+  },
+  {
+    "id": 4,
+    "nome": "Smart TV LED 55 polegadas",
+    "marca": "LG",
+    "categoria": "Eletrônicos",
+    "preço": 1999.00,
+    "quantidade_em_estoque": 20,
+    "disponivel_para_pronta_entrega": true
+  },
+  {
+    "id": 5,
+    "nome": "Câmera Digital Tecplex",
+    "marca": "TecPix",
+    "categoria": "Fotografia",
+    "preço": 1299.99,
+    "quantidade_em_estoque": 10,
+    "disponivel_para_pronta_entrega": true
+  }
+]
