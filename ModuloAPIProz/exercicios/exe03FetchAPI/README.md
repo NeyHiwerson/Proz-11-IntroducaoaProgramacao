@@ -6,5 +6,5 @@
 
 ### Se preferir, pode baixar um template do projeto com um HTML simples e o JavaScript inicial já prontos no link em anexo. Como desafio extra, caso a requisição for tratada com sucesso, pode adicionar os produtos no site numa seção chamada 'Produtos Cadastrados'. ###
 
-## URL:
-## https://httpbin.org/post
+## Base URL:
+## https://httpbin.org

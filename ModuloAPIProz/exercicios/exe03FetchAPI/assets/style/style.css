@@ -1,0 +1,49 @@
+/*
+#E831C0
+#ec4899
+#C031E8
+#8631E8
+#3152E8
+#3215EB
+ */
+body{
+  background-color: #E831C0;
+}
+#titulo-desatech{
+  background-color: #ec4899;
+  width: 370px;
+  margin: 2px 5px;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+#area-anuncio{
+  background-color: #ec4899;
+  width: 370px;
+  margin: 2px 5px;
+  border-radius: 8px;
+  padding: 10px 10px;
+
+}
+#produtos-cadastrados{
+  background-color: #c031e8;
+  color: white;
+  width: 370px;
+  margin: 2px 5px;
+  border-radius: 8px;
+  padding: 10px 10px;
+}
+#btn-anunciar{
+  background-color: #3152E8;
+  color: white;
+  border-radius: 8px;
+  padding: 6px 16px;
+}
+#btn-anunciar:hover{
+  background-color: #3215EB;
+
+}
+.produto-cadastrado{
+  background-color: #8631E8;
+  border-radius: 8px;
+  padding: 0 6px;
+}
