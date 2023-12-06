@@ -8,6 +8,7 @@
  */
 body{
   background-color: #E831C0;
+  display: flex;
 }
 #titulo-desatech{
   background-color: #ec4899;
