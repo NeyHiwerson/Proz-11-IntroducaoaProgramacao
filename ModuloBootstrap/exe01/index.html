@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" defer >
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous" defer ></script>
+  <script src="assets/scripts/index.js" defer ></script>
+  <title>Exe01Bootstrap</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-bg-dark py-5 ps-4">Bootstrap</h1>
+    <h3>Primeiros passos com Bootstrap</h3>
+    <!-- Content here -->
+  </div>
+  <div class="container-lg">
+    <h1 class="text-bg-dark py-5 ps-4">Bootstrap</h1>
+    <h3>Primeiros passos com Bootstrap</h3>
+    <!-- Content here -->
+  </div>
+  <div class="container-fluid">
+    <h1 class="text-bg-dark py-5 ps-4">Bootstrap</h1>
+    <h3>Primeiros passos com Bootstrap</h3>
+    <!-- Content here -->
+  </div>
+  <div class="container">
+    <div class="row row-cols-md-2 row-cols-lg-3">
+      <div class="col-12 col-md-12 col-lg-6">
+        <section>
+          <h3>Primeira Noticia</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore obcaecati illum asperiores eum aspernatur totam minus voluptate perspiciatis voluptatum laudantium temporibus, quisquam rerum. In repellat iure ducimus fugiat.</p>
+        </section>
+      </div>
+      <div class="col-12 col-lg-3">
+        <section>
+          <h3>Segunda Noticia</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore obcaecati illum asperiores eum aspernatur totam minus voluptate perspiciatis voluptatum laudantium temporibus, quisquam rerum. In repellat iure ducimus fugiat.</p>
+        </section>
+      </div>
+      <div class="col-12 col-lg-3">
+        <section>
+          <h3>Terceira Noticia</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit itaque tempore obcaecati illum asperiores eum aspernatur totam minus voluptate perspiciatis voluptatum laudantium temporibus, quisquam rerum. In repellat iure ducimus fugiat.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <button class="btn btn-primary">Cadastrar</button>
+      <button class="btn btn-outline-primary">Cadastrar</button>
+      <button class="btn btn-dark">Cadastrar</button>
+      <button class="btn btn-outline-dark">Cadastrar</button>
+    </div><br>
+    <div>
+      <button class="btn btn-warning">Logar</button>
+      <button class="btn btn-outline-warning">Logar</button>
+      <button class="btn btn-light">Logar</button>
+      <button class="btn btn-outline-light">Logar</button>
+    </div><br>
+    <div>
+      <button class="btn btn-danger">Sair</button>
+      <button class="btn btn-outline-danger">Sair</button>
+    </div><br>
+    <div>
+      <a href="*">Acesse</a>
+      <a href="*" class="btn btn-info">Acesse</a>
+      <a href="*" class="btn btn-outline-info">Acesse</a>
+    </div>
+    <div>
+      <h3>Quer receber nossas ultimas novidades em primeira mão?</h3>
+      <p>preencha seu email abaixo e clique em cadastrar-se</p>
+      <input type="email" name="email" id="input_email">
+      <button id="btn_cadastar" class="btn btn-success" disabled>Cadastrar-se</button>
+    </div>
+  </div><br>
+
+  <div id="container_cards" class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card" style="width: 16rem;">
+          <img src="assets/images/imagehtml.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Curso HTML</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              more info
+            </button>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 16rem;">
+          <img src="assets/images/imagecss.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Curso CSS</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card" style="width: 16rem;">
+          <img src="assets/images/imagejavascript.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Curso CSS</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="container_carousel" class="container">
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/images/imagehtml.jfif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/imagecss.jfif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/images/imagejavascript.jfif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</div>
+
+
+</body>
+</html>
